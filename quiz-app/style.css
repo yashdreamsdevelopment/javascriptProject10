@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-container{
+    background: #ffffff;
+    min-width: 500px;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 3rem;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+#result{
+    display: none;
+}
+.status{
+    color: #00D84A;
+    text-align: center;
+    margin: 1rem 0;
+}
+.status, h3{
+    text-align: center;
+}
+#scoreTile{
+    text-align: center;
+    margin: 1rem 0;
+}
+button{
+    outline: none;
+    border: none;
+    color: #ffffff;
+    display: block;
+    font-family: inherit;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #8d3dafb1;
+    cursor: pointer;
+    transition:0.2s ease-in;
+}
+button:hover{
+    background-color: #8D3DAF;
+}
