@@ -50,7 +50,7 @@ img{
     background: -webkit-linear-gradient(to right, #2F0743, #41295a); 
     background: linear-gradient(to right, #2F0743, #41295a); 
     border-radius: 5px;
-    min-width: 500px;
+    max-width: 500px;
     color: white;
 }
 
