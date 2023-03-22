@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Todo - App</title>
+</head>
+<body>
+    <div class="container">
+        <h2>todos</h2>
+
+        <div class="notes-container">
+            <div class="notes-input">
+                <input type="text" name="" id="note" placeholder="enter you todo here..." required>
+                <button type="submit" id="addNote">ADD</button>
+            </div>
+
+            <div class="notes">
+                <template>
+                    <div class="note">
+                            Go to GYM
+        
+                            <div class="actions">
+                                <button class="edit" title="edit note">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="delete" title="delete note">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </div>
+                    </div>
+                </template>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #cad5e2cf;
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h2{
+    font-size: 4rem;
+    opacity: 0.3;
+    color: #242B2E;
+    margin-bottom: 1rem;
+}
+
+.notes-container{
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+
+}
+.notes-input{
+    position: relative;
+}
+
+.notes-container .notes-input input{
+    width: 100%;
+    padding: 0.625rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    outline: none;
+    
+}
+
+.notes-container .notes-input button{
+    position: absolute;  
+    right: 0;
+    height: calc(100%);
+    width: 100px;
+    background: #242b2ece;
+    color: #fff;
+    outline:none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.notes-container .notes-input button:hover{
+    background-color: #242b2ece;
+}
+
+.notes{
+
+}
+
+.note{
+    position: relative;
+    padding: 0.625rem;
+    font-size: 1rem;
+    border: 0.9px solid black;
+    border-radius: 3px;
+}
+.note:first-child{
+    margin-top: 1rem;
+}
+
+.note .completed{
+    text-decoration: line-through;
+}
+.notes .empty{
+    text-align: center;
+    color: red;
+}
+.note .actions{
+    position: absolute;
+    top: 50%;
+    right: 0.625rem;
+    translate: 0% -50%;
+}
+
+.note .actions button{
+    padding: 0.25rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
